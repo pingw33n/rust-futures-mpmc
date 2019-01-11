@@ -1,0 +1,15 @@
+[package]
+name = "futures-mpmc"
+version = "0.1.0"
+authors = ["Dmytro Lysai <d@emphased.net>"]
+license = "MIT"
+homepage = "https://github.com/pingw33n/rust-futures-mpmc"
+repository = "https://github.com/pingw33n/rust-futures-mpmc"
+documentation = "https://docs.rs/futures-mpmc"
+description = "MPMC queues for futures."
+exclude = [
+    ".idea/**",
+]
+
+[dependencies]
+futures = "0.1"
